@@ -1,0 +1,70 @@
+.second-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 50px;
+    position: sticky;
+    top: -1px;
+    background-color: #333;
+    height: 65px;
+}
+
+.second-header > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.second-header > div > div {
+    display: flex;
+    height: 100%;
+}
+.second-header > div > div > div {
+    padding: 0px 10px;
+    color: white;
+    flex-wrap: wrap;
+    display: flex;
+    align-content: center;
+}
+.second-header > div > div > div > div.submenu {
+    position: absolute;
+    top: 100%;
+    background-color: white;
+    padding: 10px;
+}
+.second-header > div > div > div > a {
+    text-decoration: none;
+}
+.second-header > div > div > div > div.submenu > div > a {
+    text-decoration: none;
+}
+
+.hover-underline-animation {
+    display: inline-block;
+    position: relative;
+    color:  white;
+    padding-bottom: 5px;
+ }
+ 
+ .hover-underline-animation:after {
+   content: '';
+   position: absolute;
+   width: 100%;
+   transform: scaleX(0);
+   height: 2px;
+   bottom: 0;
+   left: 0;
+   background-color: white;
+   transform-origin: bottom right;
+   transition: transform 0.25s ease-out;
+ }
+ 
+ .hover-underline-animation:hover:after {
+   transform: scaleX(1);
+   transform-origin: bottom left;
+ }
+
+ .freeQuote {
+    background-color: red;
+ }
+

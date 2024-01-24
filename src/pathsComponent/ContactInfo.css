@@ -1,0 +1,20 @@
+.contact-info {
+    height: 100%;
+    padding: 20px 20px ;
+}
+.contact-info > div.info-row {
+    display: flex;
+    justify-content: center;
+}
+.contact-info > div.info-row > div {
+    padding: 20px;
+    width: 50%;
+}
+ul{
+    list-style-type: none;
+    padding-left: 0px;
+}
+.contact-info a {
+    text-decoration: none;
+    color: #000000;
+}

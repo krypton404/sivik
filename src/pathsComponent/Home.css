@@ -1,0 +1,84 @@
+.firstRoot > div {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.firstRoot > div > h1 {
+    font-weight: 500;
+    font-size: xxx-large;
+    width: 80%;
+    text-align: center;
+}
+.firstRoot > div > a {
+    text-decoration: none;
+    color: white;
+    background-color: red;
+    padding: 21px 33px 21px 25px;
+    display: flex;
+}
+
+.firstRoot > div > a > div {
+    padding: 0px 10px;
+}
+
+.secondRoot {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:#F2F4F8;
+}
+.secondRoot > div {
+    display: flex;
+    margin: 20px 50px;
+    width: 100%;
+}
+.secondRoot > div > h2 {
+    width: 66%;
+}
+.secondRoot > div > span {
+    margin-left: 50px;
+    color: #E61818;
+    font-size: 14px;
+    /* font-weight: 400; */
+    text-transform: uppercase;
+    /* display: inline-block; */
+    letter-spacing: 0.3em;
+    transform: rotate(-90deg);
+    /* position: absolute;
+    left: -36px;
+    top: 35px; */
+}
+
+.secondRoot > div.services {
+    justify-content: space-evenly;
+    /* padding: 20px ; */
+}
+
+.secondRoot > div.services > div {
+    width: 20%;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: white;
+}
+
+.secondRoot > div.services > div > div {
+    /* padding: 5px 0px; */
+}
+.secondRoot > div.services > div > div > h5{
+    margin: 5px 0px;
+}
+.secondRoot > div.services > div > div > a {
+    color: red;
+    opacity: 0;
+}
+.secondRoot > div.services > div > div > a.visible {
+    opacity: 1;
+}

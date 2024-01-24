@@ -1,0 +1,45 @@
+.why {
+    display: flex;
+    padding: 50px;
+}
+.why > div {
+    display: flex;
+}
+.why > div > div {
+    padding: 20px;
+    /* color: #E61818;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 0.3em;
+    transform: rotate(-90deg);
+    width: -webkit-fill-available;
+    height: fit-content; */
+}
+.why > div > div > div > h2 {
+    font-size: 40px;
+    display: block;
+    font-weight: 400;
+}
+.why > div > div > div.numbers {
+    display: flex;
+    padding: 20px 20px 20px 0px;
+}
+.why > div > div > div.numbers > div > div.number {
+    color: #E61818;
+    font-size: 50px;
+    font-weight: 600;
+    font-family: "Jost",sans-serif;
+    line-height: 1;
+    margin-bottom: 12px;
+    display: inline-block;
+    text-transform: uppercase;
+    
+}
+.why > div > div > div.numbers > div {
+    padding-right: 20px;
+}
+.why > div > div > div.numbers > div > div.pera-count {
+    font-size: 22px;
+    line-height: 1.4;
+    width: 250px;
+}
